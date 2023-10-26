@@ -1,0 +1,77 @@
+/* Form menu CSS START */
+.transaction-menu {
+	height: 50px;
+	background-color: #fff;
+}
+.transaction-menu ul {
+	display: flex;
+	position: fixed;
+}
+.transaction-menu ul li {
+	padding: 10px;
+	background-color: #3bb77e;
+}
+
+.img-with-text {
+	text-align: justify;
+	width: 50px;
+	margin-bottom: 0.5rem;
+}
+.transaction-menu ul li a {
+	color: #fff;
+}
+
+.img-with-text p {
+	text-align: center;
+	color: #fff;
+	margin: 0 0 -15px;
+}
+
+.img-with-text img {
+	display: block;
+	margin: 0 auto;
+	height: 30px;
+}
+.dropdown-menu li {
+	background-color: #fff !important;
+	color: #0000;
+	border-left: 3px solid #3bb77e;
+	padding: 0px !important;
+}
+.dropdown-menu li a {
+	color: black !important;
+}
+/* Form menu CSS END */
+
+.crm-heading {
+	width: 100%;
+	background: #adb5bd;
+	padding: 5px 10px;
+	color: #ffff;
+	font-weight: 600;
+	font-size: 26px;
+	margin: 20px 0px;
+}
+.error {
+	color: red;
+}
+
+.required:after {
+	content: " *";
+	color: red;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+.icontext span {
+	display: inline-flex !important;
+}
